@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", sans-serif;
+}
+
+body {
+    color: #222;
+}
+
+/* NAVBAR */
+nav {
+    background: #0a0a0a;
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+}
+
+.nav-container {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h2 {
+    color: #fff;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* HERO */
+.hero {
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #111, #333);
+    color: #fff;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 44px;
+    letter-spacing: 2px;
+}
+
+.subtitle {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.location {
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    background: #fff;
+    color: #000;
+    padding: 12px 28px;
+    border-radius: 25px;
+    text-decoration: none;
+}
+
+/* SECTIONS */
+.section {
+    padding: 60px 10%;
+}
+
+.section.gray {
+    background: #f4f4f4;
+}
+
+.section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* EDUCATION */
+.edu-card {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-left: 4px solid #000;
+}
+
+/* SKILLS */
+.skill-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+}
+
+.skill-grid span {
+    background: #000;
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 20px;
+}
+
+/* CONTACT */
+.links {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.links a {
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* FOOTER */
+footer {
+    background: #000;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    nav ul {
+        display: none;
+    }
+
+    .hero-content h1 {
+        font-size: 30px;
+    }
+}
